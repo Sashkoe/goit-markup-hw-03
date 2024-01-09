@@ -16,7 +16,8 @@ body {
  line-height: 1.17;
  letter-spacing: 0.03em;
  text-transform: uppercase;
-
+width: 1440px;
+height: 72px;
 }
 .logo-accent{
 color: #2E2F42;
