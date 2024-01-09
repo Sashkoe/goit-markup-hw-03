@@ -180,3 +180,6 @@ ul {
 .logo-accent-footer {
     color: #f4f4fd ; 
 }
+*, *::before, *::after{
+    box-sizing: border-box;
+}
