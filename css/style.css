@@ -9,10 +9,9 @@ body {  color:  #434455;
  font-size: 16px;
 }
 .container{
-margin-left: auto;
-margin-right: auto;
-height: 72px;
-width: 1240px;
+max-width: 1158px;
+padding: 0 15px;
+margin: 0 auto;
 }
 .header-page{
    border-bottom: 1px solid;
@@ -25,7 +24,10 @@ width: 1240px;
     padding: 25.5px;
 padding-left: 156px;
 padding-bottom: 25.5px;
-
+}
+.page-header-nav{
+    display: flex;
+    align-items: centers;
 }
 
 .logo {
