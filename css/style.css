@@ -8,18 +8,21 @@ body {  color:  #434455;
     font-family: Roboto, sans-serif;
  font-size: 16px;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin:0 auto;
+}
+
 .container{
     max-width: 1158px;
     padding: 0 15px;
     margin:0 auto;
 }
 .page-header-container{
-margin-left: auto;
-margin-right: auto;
-height: 72px;
-width: 1158px;
 display: flex;
-justify-content:flex-end ;
+align-items: center;
+
 
 
 }
@@ -36,14 +39,15 @@ display: flex;
 }
 .nav-links{
     display: flex;
-    margin-right: 40px;
-    padding-bottom: 24px;
-    padding-left: 76px;
+    margin-left: 76px;
+     gap: 40px;
 }
 .header-list{
+    gap: 40px;
     display: flex;
-    padding-top: 24px;
-    padding-left: 200px;
+
+    
+
 }
 .logo {
 
@@ -76,7 +80,6 @@ color: #2E2F42;
  line-height: 1.5; 
  letter-spacing: 0.32px;
  text-decoration: none;
- margin-right: 40px;
  padding-top: 24px;
  padding-bottom: 24px;
  
@@ -96,11 +99,11 @@ color: #2E2F42;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 text-decoration:none;
-margin-right: 40px;
 
 }
   .address{
     font-style: normal; 
+    margin-left: auto;
   }
   .contacts:hover{
     color: #404BBF;
@@ -110,19 +113,16 @@ margin-right: 40px;
      color: #404BBF; 
  }
 
- .section{
-   width: 1158px;
-     height: 600px;
-   margin-left: auto;
-margin-right: auto;
-
- }
     
 .hero-section {
     background: #2E2F42;
+padding: 188px 0;
+
+
 }
 
 .hero-title {
+    max-width: 496px;
 color:  #FFFFFF;
 display: flex;
 font-size: 56px;
@@ -132,6 +132,9 @@ letter-spacing: 1.12px;
 text-transform: capitalize;
 text-align: center;
 justify-content: center;
+margin: 0 auto;
+margin-bottom: 48px;
+
 
 }
 .hero-button {
@@ -150,6 +153,7 @@ padding: 16px 32px 16px 32px;
  border-radius: 4px;
  background: var(--IRIS, #4D5AE5);
  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ margin: 0 auto;
 
  
 }
