@@ -12,6 +12,7 @@ body {  color:  #434455;
     padding-top: 120px;
     padding-bottom: 120px;
     margin:0 auto;
+    align-items: center;
 }
 
 .container{
@@ -165,6 +166,15 @@ padding: 16px 32px 16px 32px;
     background: #404BBF;
 
 }
+.item{
+    display: flex;
+}
+.advantages{
+    display: none;
+}
+.stategy-item{
+
+}
 
 .stategy-title {
 color:#2E2F42 ;
@@ -172,6 +182,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.4px;
+
 }
 .stategy-section {
 font-size: 16px;
