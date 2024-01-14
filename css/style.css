@@ -12,7 +12,7 @@ body {  color:  #434455;
     padding-top: 120px;
     padding-bottom: 120px;
     margin:0 auto;
-    align-items: center;
+    
 }
 
 .container{
@@ -168,9 +168,11 @@ padding: 16px 32px 16px 32px;
 }
 .item{
     display: flex;
+    gap: 24px;
 }
 .advantages{
     display: none;
+    
 }
 .stategy-item{
 
@@ -191,6 +193,18 @@ letter-spacing: 0.32px;
 }
 .section-team {
     background: #F4F4FD;
+
+}
+.team-teatle-link{
+    display: flex;
+    gap:24px;
+}
+.portfolio-ul{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 .team-title {
 color: #2E2F42 ;
@@ -241,7 +255,8 @@ letter-spacing: 0.4px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: left;
-    text-transform: uppercase;     
+    text-transform: uppercase; 
+    
 }
 .footer {
     background-color: #2e2f42;
@@ -251,6 +266,7 @@ letter-spacing: 0.4px;
 }
 .footer-section {
     color:  #F4F4FD;
+    width: 264px;
 font-size: 16px;
  line-height: 1.5;
 letter-spacing: 0.32px;
@@ -261,4 +277,3 @@ ul {
 .logo-accent-footer {
     color: #f4f4fd ; 
 }
-
