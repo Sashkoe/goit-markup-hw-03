@@ -222,11 +222,10 @@ margin-bottom: 8px;
     gap:24px;
 }
 .portfolio-ul{
-    display:flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .team-title {
 color: #2E2F42 ;
@@ -275,6 +274,52 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 text-align: center;
 }
+.list-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolioitem{
+    width: calc((100% - 48px) / 3);
+}
+.divapp{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.text-team{
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 1.5;
+}
+.divmarketing{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;  
+}
+.divmeditation {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;  
+}
+.divtaxi{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+}
+.divscreen{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.divonline{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .portfolio-title {
  color:  #2E2F42;
 text-align: center;
@@ -290,6 +335,7 @@ font-size: 20px;
 font-weight: 500;
  line-height: 1.2;
 letter-spacing: 0.4px;
+margin-bottom: 8px;
 }
 
 .logo-footer{
@@ -312,7 +358,6 @@ letter-spacing: 0.4px;
 .footer-section {
     color:  #F4F4FD;
     width: 264px;
-font-size: 16px;
  line-height: 1.5;
 letter-spacing: 0.32px;
 }
@@ -320,5 +365,24 @@ ul {
  list-style: none;   
 } 
 .logo-accent-footer {
-    color: #f4f4fd ; 
+    color: #f4f4fd ;
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-web{
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
 }
