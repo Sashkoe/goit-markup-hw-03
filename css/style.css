@@ -11,10 +11,13 @@ body {  color:  #434455;
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
-    margin:0 auto;
-    
+    margin:0 auto;  
 }
-
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .container{
     max-width: 1158px;
     padding: 0 15px;
@@ -138,25 +141,21 @@ padding: 188px 0;
 
 }
 .hero-button {
- color: #FFF;
- background-color:  #4D5AE5;
- background-color:  rgb(77, 90, 229);
- font-family: Roboto, sans-serif;
+ color: #ffffff;
+ font-family: "Roboto", sans-serif;
  font-size: 16px;
  font-weight: 500;
- line-height: 1.5;
- letter-spacing:0.04em;
+ letter-spacing: 0.64px;
+ background-color: #4d5ae5;
  cursor: pointer;
+ line-height: 1.5;
  display: block;
-min-width: 169px;
-min-height: 59px;
- gap: 10px;
+ min-width: 169px;
+ height: 56px;
+ border: none;
  border-radius: 4px;
- background: var(--IRIS, #4D5AE5);
- box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
- margin: 0 auto;
-
- 
+ margin-right: auto;
+ margin-left: auto;
 }
 
 .hero-button:focus{
@@ -252,15 +251,6 @@ border-radius: 0px 0px 4px 4px;
 .markdiv{
    padding: 32px 0;
 }
-.tomdiv{
-padding: 32px 0;
-}
-.camiladiv{
-padding: 32px 0;  
-}
-.danieldiv{
-    padding: 32px 0;    
-}
 .small-name {
     text-align: center;
 color:#2E2F42;
@@ -292,35 +282,11 @@ text-align: center;
 }
 
 .text-team{
-    font-size: 16px;
+  font-size: 16px;
     letter-spacing: 0.32px;
-    line-height: 1.5;
+    line-height: 1.5;  
 }
-.divmarketing{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;  
-}
-.divmeditation {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;  
-}
-.divtaxi{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none; 
-}
-.divscreen{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
-.divonline{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
+    
 
 .portfolio-title {
  color:  #2E2F42;
@@ -353,6 +319,7 @@ margin-bottom: 8px;
 }
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .logo-footer-title {
     background:  #2E2F42;
