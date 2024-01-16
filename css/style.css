@@ -35,12 +35,12 @@ align-items: center;
 }
 .page-header-nav{
 display: flex;
-
+align-items: center;
 
 }
 .nav-links{
     display: flex;
-    margin-left: 76px;
+   
      gap: 40px;
 }
 .header-list{
@@ -63,6 +63,7 @@ display: flex;
  padding-top: 25.5px;
  padding-bottom: 25.5px;
  padding-right: 0;
+ margin-right: 76px;
 
 
  
@@ -146,8 +147,9 @@ padding: 188px 0;
  line-height: 1.5;
  letter-spacing:0.04em;
  cursor: pointer;
- display: flex;
-padding: 16px 32px 16px 32px;
+ display: block;
+min-width: 169px;
+min-height: 59px;
  gap: 10px;
  border-radius: 4px;
  background: var(--IRIS, #4D5AE5);
